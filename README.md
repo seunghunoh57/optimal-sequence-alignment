@@ -1,4 +1,4 @@
-# Sequence-Alignment (Optimal)
+# Sequence Alignment (Optimal)
 This program takes two string inputs and outputs the optimal alignment for the two strings.
 
 ### How the code works
