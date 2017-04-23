@@ -24,6 +24,7 @@ def insert(str, letter, index):
 def alignment(a, b):
     a = "-" + a
     b = "-" + b
+    # In the current version of the program, "optimal" is defined as same letter > both vowel/consonant > gap > not both vowel/consonant.
     same_type, delta, diff_type = 1, 2, 3
     a_type, b_type = [], []
     len_a, len_b = len(a), len(b)
@@ -71,4 +72,7 @@ def alignment(a, b):
 
 
 if __name__ == "__main__":
-    print alignment(sys.argv[1], sys.argv[2])
+    try:
+        print alignment(sys.argv[1], sys.argv[2])
+    except:
+        print "You must run the program in the following format:\npython seqalign 'string1' 'string2'"
