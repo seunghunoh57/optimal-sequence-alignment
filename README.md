@@ -10,11 +10,9 @@ The code takes advantage of recursion and dynamic programming. The code creates 
 
 ### Running the code
 To run this program, enter:
-
-'''
+```
 python seqalign.py string1 string2
-'''
-
+```
 where string1 and string2 are the two strings you wish to compare.
 
 ### Extended Usage
