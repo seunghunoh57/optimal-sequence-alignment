@@ -9,7 +9,7 @@ In the current verrsion of the program, "optimal" is defined as same letter > bo
 The code takes advantage of recursion and dynamic programming. The code creates a dynamic programming table to determine the most optimal value, then retraces its path using recursion to create the strings with proper gaps. This allows for the code to run as fast and with as little memory space as possible.
 
 ### Running the code
-To run this program, enter:
+To run this program, enter the following into your terminal:
 ```
 python seqalign.py string1 string2
 ```
