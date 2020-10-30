@@ -1,6 +1,6 @@
 import sys
 
-# minimim alignment takes into account gap and mismatch values
+# minimum alignment takes into account gap and mismatch values
 def retrace(a, b, str1, str2, A, x, y):
     if x == 1 and y == 1:
         return str1, str2
